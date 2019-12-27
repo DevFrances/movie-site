@@ -1,0 +1,35 @@
+/*  gives a margin bottom to the text in the single carousel image */
+.carousel-caption{
+    margin-bottom: 100px;
+ }
+
+ /* over rides the default color of the bootstrap nav background color to black */
+nav{
+    background-color: black;
+}
+
+/* margin-top and border color for carousel-image */
+.card{
+    margin-top: none;
+    border: black;
+}
+
+/* navbar hover description */
+.navbar-nav :hover{
+    text-decoration: white;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: white;
+    
+    
+}
+
+/* gives shadow to the featured movie below the news flash */
+.col-md .text .shadow{
+    margin-top: 10px;
+}
+
+/* centers the news flash text */
+.carousel-item{
+    text-align-last: center;
+}

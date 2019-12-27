@@ -1,0 +1,266 @@
+/* to reduce the h1 size for the nav-brand on the navigation */
+a h1{
+    font-size: 30px;
+    }
+    .date{
+        background-color: black;
+        width: auto;
+        height: 30px;
+        color: white;
+        text-align: center;
+    }
+    
+    /* the time and date margin for the filming just right below the carousel */
+    .timeFrame{
+       margin: auto;
+    }
+    
+    /* clara dunn font size on the carousel */
+    h2.cd{
+        font-size: 40px;
+    }
+    
+    
+      /* the div that shows the three featured movies on premiere */
+    .featured{
+        margin-top: 25px;
+       
+        
+    }
+    /* aligns text content on featured to the center */
+    .text{
+        text-align: center;
+    }
+    
+    /* image sizng for all featured films on premiere */
+    .featured img{
+        height: 350px;
+        width: 300px;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        
+    }
+    .featureText{
+        font-size: 50px;
+        color: blue;
+        text-align: center;      
+    }
+    
+    /* movie title and dates for featured movies giving a blue color and 5px top margin */
+    .featuredA{
+        margin-top: 5px;
+        margin-bottom: 15px;
+        color: blue;
+    }
+     
+    .watchitContainer{
+       
+        height: auto;
+    }
+    .watchit{
+        font-size: 50px;
+        color: blue;
+        text-align: center;
+        width: 50%;
+        margin-top: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .watchit1{
+        height: 250px;
+        width: 50%;
+        font-weight: bold;
+        padding: auto;
+       text-align: center;
+    }
+    
+    /* margin-top on the content of the about page */
+    .aboutPage{
+        margin-top: 15px;
+    }
+    
+    /* the about page content continue */
+    .aboutText{
+        width: 50%;
+        height: auto;
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+     
+    h5.dating{
+        font-size: 70px;
+        text-align: center;        
+    }
+
+    h5.dating2{
+    text-align: center; 
+
+    }
+    
+    
+    /* reservations */
+    .reservation{
+        background-color: black;
+        border: 1px solid black;
+        text-align: center;
+        color: white;
+        margin-bottom: 10px;
+        
+    }
+    
+    /* form area */
+    .reservation input{
+        margin-bottom: 10px;
+        height: 40px;
+        padding-left: 5px;
+    }
+    
+    div .reservation{
+        margin-top: 10px;
+    }
+    
+    button{
+        display:list-item;
+    }
+    
+    button .reserve .btn .btn-primary{
+        border-radius: 15px 15px 15px 15px;
+        background-color: blue;
+    }
+    
+    
+    /* contact details */
+    .contact{
+        height: 400px;
+        width: 100%;
+        background: gray;
+    }
+    
+    /* news links */
+    .newsLinks{
+        height: 100px;
+        background: rgb(56, 51, 51);
+        margin-top: 0px;
+    
+    }
+    .newsLinks h5{
+        color: white;
+    }
+    .newsLinks a{
+        color: white;
+    }
+    
+    a:hover{
+    text-decoration: none;
+    color: blue;
+    }
+    
+    
+      /* Style the button and place it in the middle of the container/image */
+      .featured .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: blue;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      
+      .btn a:hover {
+        color:white;
+        text-decoration: none;
+    
+      }
+    .btn a{
+        color: white;
+        
+    }
+      /* form  */
+      input{
+          border-radius: 10px 10px 10px 10px;
+      }
+    
+      /* news section */
+    .specialAppearance{
+        width: 100%;
+        height: 200px;
+        background-color: black;
+        color: white;
+        border: 1px solid blue;
+        
+    }
+    
+    .carousel-item div{
+        padding: 0px 30px 0px 30px;
+        box-sizing: border-box;;
+    }
+    
+    /* footer */
+    
+    footer{
+        background: black;  
+       
+    }
+    footer ul li{
+        
+        display: inline;
+        color: white;
+        margin-right: 10px;
+    }
+    
+    .copyright{
+        margin-left: 40px;
+    }
+    
+    li{
+        list-style-type: none;
+        color: white;
+    }
+    
+    /* news flash animation */
+    
+    div .flash{
+        animation-name: newsFlash;
+        animation-duration: 5s;
+        color: white;
+        animation-iteration-count: infinite;
+    }
+    
+    .flash{
+        text-align: center;
+    }
+    
+    /* changes the news flash color from red to blue infinitum */
+    @keyframes newsFlash{
+        from{
+            color: blue;
+        }
+        to{
+            color: red;
+        }
+    }
+
+    div .watchit{
+        animation-name: watch;
+        animation-duration: 5s;
+        color: white;
+        animation-iteration-count: infinite;
+    }
+    @keyframes watch {
+        0%   { color: blue;}
+        25%   {color: rgb(139, 10, 10); }
+        50%   { color: rgb(68, 4, 95);}
+        75% { color: rgb(45, 20, 104);}
+        100% {color: rgb(25, 116, 201); }
+    }
+    
